@@ -19,7 +19,16 @@ This repository contains a setup for testing and debugging in a Next.js project 
 
 #### Vitest installation
 
-To integrate **Vitest** into my Next.js project, run:
+To integrate **Vitest** into my Next.js project Manual SetUp, run:
 
 ```bash
 yarn add --dev vitest jsdom @vitejs/plugin-react @testing-library/react @testing-library/dom
+```
+
+#### Playwright installation
+
+To integrate **Playwright** into my Next.js project Manual SetUp, run:
+
+```bash
+npm init playwright@latest
+```
